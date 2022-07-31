@@ -1,0 +1,4 @@
+*.swp
+purescript-language-server/
+vscode-ide-purescript/
+test-project/

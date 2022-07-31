@@ -1,0 +1,7 @@
+#!/bin/bash
+
+PURESCRIPT_LANGUAGE_SERVER_REPO_URI=git@github.com:nwolverson/purescript-language-server.git
+PURESCRIPT_LANGUAGE_SERVER_PS_VERSION=0.15.2
+
+VSCODE_IDE_PURESCRIPT_REPO_URI=git@github.com:nwolverson/vscode-ide-purescript.git
+VSCODE_IDE_PURESCRIPT_PS_VERSION=0.14.5
