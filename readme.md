@@ -46,4 +46,4 @@ fileEvents:
 ```
 * If building inside of VSCode, issues will likely be visible in the VSCode "terminal" panel
 * If builds work correctly via Make, but not inside VSCode, check that you're using local versions of npm and associated tools:
-![vscode setting detail](/vscode-setting-detail.png)
+![vscode setting detail](/vscode_setting_detail.png)
