@@ -8,7 +8,7 @@
 # Prereqs
 * Visual Studio Code
 * nodejs
-* Posix environment with Bash
+* Posix environment with bash, make, and realpath
 
 # Instructions
 ## Forking projects
@@ -47,5 +47,3 @@ fileEvents:
 * If building inside of VSCode, issues will likely be visible in the VSCode "terminal" panel
 * If builds work correctly via Make, but not inside VSCode, check that you're using local versions of npm and associated tools:
 ![vscode setting detail](/vscode-setting-detail.png)
-
-* Project documentation advises the use of "npm link" commands, but here an explicit creation of a symlink has been used to avoid reliance and alteration of system-wide state.

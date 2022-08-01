@@ -11,8 +11,10 @@ cd_rel_norm() {
 echo "Building language server..."
 cd_rel_norm ../purescript-language-server
 npx spago build
+npm link
 
 
 echo "Building vscode plugin"
 cd_rel_norm ../vscode-ide-purescript
-npm run build
+npm link purescript-language-server
+npx npm run build

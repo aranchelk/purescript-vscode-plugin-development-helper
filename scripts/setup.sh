@@ -23,10 +23,10 @@ cd ${SCRIPT_DIR}/../vscode-ide-purescript
 npm install
 npm install purescript@${VSCODE_IDE_PURESCRIPT_PS_VERSION}
 
-echo "Linking projects"
-cd ${SCRIPT_DIR}/../vscode-ide-purescript/node_modules
-rm -rf purescript-language-server
-ln -s ../../purescript-language-server .
+#echo "Linking projects"
+#cd ${SCRIPT_DIR}/../vscode-ide-purescript/node_modules
+#rm -rf purescript-language-server
+#ln -s ../../purescript-language-server .
 
 echo "Setup simple test project"
 cd ${SCRIPT_DIR}/..

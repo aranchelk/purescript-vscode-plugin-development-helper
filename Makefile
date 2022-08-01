@@ -5,4 +5,4 @@ build:
 	./scripts/build.sh
 
 try-extension:
-	code --inspect-extensions=9333 --extensionDevelopmentPath=./vscode-ide-purescript test-project
+	code --inspect-extensions=9333 --extensionDevelopmentPath=$(realpath ./vscode-ide-purescript) test-project
