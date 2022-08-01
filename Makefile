@@ -1,3 +1,5 @@
+run-all: setup build try-extension
+
 setup:
 	./scripts/setup.sh
 
